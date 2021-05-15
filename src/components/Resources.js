@@ -4,7 +4,7 @@ const Resources =({ resources }) => {
   return(
     <React.Fragment>
       {resources.map((resource)=>(
-          <p key={resources.id}>{resources.title}</p>
+          <p key={resource.id}>{resource.title}</p>
       ))}
     </React.Fragment>
   );
